@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Discover your next adventure with our premium travel agency.">
+  <title>Aura Travel</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#home" class="logo">Aura<span>Travel</span></a>
+      <ul class="nav-links">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#packages" class="nav-link">Packages</a></li>
+        <li><a href="#destinations" class="nav-link">Destinations</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <button class="hamburger">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <header id="home" class="hero">
+    <img src="https://images.unsplash.com/photo-1499793983690-e29da59ef1c2?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80" alt="Beautiful Beach" class="hero-bg">
+    <div class="container">
+      <div class="hero-content reveal active">
+        <h1 class="title">Explore the World's Best <span>Secrets</span></h1>
+        <p class="subtitle">Experience unparalleled luxury, adventure, and cultural immersion with our curated travel packages.</p>
+        <div class="hero-btns">
+          <a href="#destinations" class="btn btn-primary">Explore Destinations</a>
+          <a href="#packages" class="btn btn-outline">View Packages</a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- Packages Section -->
+  <section id="packages" class="container" style="padding-top: 8rem;">
+    <h2 class="section-title reveal">Exclusive <span>Packages</span></h2>
+    <div class="grid">
+      
+      <!-- Package 1 -->
+      <div class="card reveal">
+        <div class="card-img-wrapper">
+          <span class="card-badge" style="background: var(--color-primary);">Best Seller</span>
+          <img src="https://images.unsplash.com/photo-1506929562872-bb421503ef21?ixlib=rb-4.0.3&auto=format&fit=crop&w=1068&q=80" alt="Maldives Getaway" class="card-img">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Maldives Romantic Escape</h3>
+          <p class="card-desc">7 Days, 6 Nights in an overwater villa.</p>
+          <ul class="package-features">
+            <li><i class="fas fa-plane"></i> Roundtrip Flights</li>
+            <li><i class="fas fa-hotel"></i> 5-Star Resort</li>
+            <li><i class="fas fa-utensils"></i> All-Inclusive Meals</li>
+            <li><i class="fas fa-ship"></i> Sunset Cruise</li>
+          </ul>
+          <div class="card-footer">
+            <span class="card-price">$3,499<span style="font-size:0.8rem; font-weight:400; color:var(--color-text-muted)">/pp</span></span>
+            <a href="#contact" class="btn btn-primary" style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Package 2 -->
+      <div class="card reveal" style="transition-delay: 0.1s;">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Swiss Alps" class="card-img">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Swiss Alps Adventure</h3>
+          <p class="card-desc">5 Days of skiing and mountain exploration.</p>
+          <ul class="package-features">
+            <li><i class="fas fa-plane"></i> Roundtrip Flights</li>
+            <li><i class="fas fa-hotel"></i> Alpine Lodge</li>
+            <li><i class="fas fa-skiing"></i> Ski Pass Included</li>
+            <li><i class="fas fa-subway"></i> Train Transfers</li>
+          </ul>
+          <div class="card-footer">
+            <span class="card-price">$2,150<span style="font-size:0.8rem; font-weight:400; color:var(--color-text-muted)">/pp</span></span>
+            <a href="#contact" class="btn btn-primary" style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Package 3 -->
+      <div class="card reveal" style="transition-delay: 0.2s;">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=1176&q=80" alt="Taj Mahal" class="card-img">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Golden Triangle India</h3>
+          <p class="card-desc">8 Days discovering Delhi, Agra, and Jaipur.</p>
+          <ul class="package-features">
+            <li><i class="fas fa-plane"></i> Roundtrip Flights</li>
+            <li><i class="fas fa-hotel"></i> Heritage Hotels</li>
+            <li><i class="fas fa-bus"></i> Guided AC Transport</li>
+            <li><i class="fas fa-camera"></i> Monument Entries</li>
+          </ul>
+          <div class="card-footer">
+            <span class="card-price">$1,800<span style="font-size:0.8rem; font-weight:400; color:var(--color-text-muted)">/pp</span></span>
+            <a href="#contact" class="btn btn-primary" style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Package 4 -->
+      <div class="card reveal" style="transition-delay: 0.3s;">
+        <div class="card-img-wrapper">
+          <img src="https://images.unsplash.com/photo-1518684079-3c830dcef090?ixlib=rb-4.0.3&auto=format&fit=crop&w=1974&q=80" alt="Dubai" class="card-img">
+        </div>
+        <div class="card-content">
+          <h3 class="card-title">Dubai Luxury Tour</h3>
+          <p class="card-desc">4 Days of opulence in the UAE.</p>
+          <ul class="package-features">
+            <li><i class="fas fa-plane"></i> Roundtrip Flights</li>
+            <li><i class="fas fa-hotel"></i> 5-Star Hotel</li>
+            <li><i class="fas fa-car"></i> Desert Safari</li>
+            <li><i class="fas fa-building"></i> Burj Khalifa Ticket</li>
+          </ul>
+          <div class="card-footer">
+            <span class="card-price">$1,500<span style="font-size:0.8rem; font-weight:400; color:var(--color-text-muted)">/pp</span></span>
+            <a href="#contact" class="btn btn-primary" style="padding: 0.5rem 1.5rem; font-size: 0.9rem;">Book Now</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Destinations Section -->
+  <section id="destinations" class="container" style="padding-top: 8rem;">
+    <h2 class="section-title reveal">Breathtaking <span>Destinations</span></h2>
+    <div class="gallery-grid">
+      
+      <div class="gallery-item reveal">
+        <img src="https://images.unsplash.com/photo-1523906834658-6e24ef2386f9?ixlib=rb-4.0.3&auto=format&fit=crop&w=1283&q=80" alt="Venice, Italy">
+        <div class="gallery-overlay">
+          <h3 class="gallery-title">Venice, Italy</h3>
+          <p class="gallery-desc">The floating city of romance.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item reveal" style="transition-delay: 0.1s;">
+        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?ixlib=rb-4.0.3&auto=format&fit=crop&w=1173&q=80" alt="Paris, France">
+        <div class="gallery-overlay">
+          <h3 class="gallery-title">Paris, France</h3>
+          <p class="gallery-desc">Art, fashion, and culture.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item reveal" style="transition-delay: 0.2s;">
+        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Dubai, UAE">
+        <div class="gallery-overlay">
+          <h3 class="gallery-title">Dubai, UAE</h3>
+          <p class="gallery-desc">A futuristic oasis in the desert.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item reveal" style="transition-delay: 0.3s;">
+        <img src="https://images.unsplash.com/photo-1537996194471-e657df975ab4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1038&q=80" alt="Bali, Indonesia">
+        <div class="gallery-overlay">
+          <h3 class="gallery-title">Bali, Indonesia</h3>
+          <p class="gallery-desc">A tropical paradise.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item reveal" style="transition-delay: 0.4s;">
+        <img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80" alt="Swiss Alps">
+        <div class="gallery-overlay">
+          <h3 class="gallery-title">Swiss Alps</h3>
+          <p class="gallery-desc">Majestic mountains and pure air.</p>
+        </div>
+      </div>
+
+      <div class="gallery-item reveal" style="transition-delay: 0.5s;">
+        <img src="https://images.unsplash.com/photo-1548013146-72479768bada?ixlib=rb-4.0.3&auto=format&fit=crop&w=1176&q=80" alt="Agra, India">
+        <div class="gallery-overlay">
+          <h3 class="gallery-title">Agra, India</h3>
+          <p class="gallery-desc">Home to the magnificent Taj Mahal.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="container" style="padding-top: 8rem; padding-bottom: 6rem;">
+    <h2 class="section-title reveal">Get in <span>Touch</span></h2>
+    <div class="contact-container">
+      
+      <!-- Contact Info -->
+      <div class="contact-info reveal">
+        <h3 style="font-family: var(--font-serif); font-size: 1.8rem; margin-bottom: 2rem;">Contact Information</h3>
+        
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-map-marker-alt"></i></div>
+          <div class="contact-text">
+            <h4>Office Address</h4>
+            <p>123 Travel Lane<br>New York, NY 10001<br>United States</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-phone-alt"></i></div>
+          <div class="contact-text">
+            <h4>Call Us</h4>
+            <p>+1 (555) 123-4567<br>+1 (555) 987-6543</p>
+          </div>
+        </div>
+
+        <div class="contact-item">
+          <div class="contact-icon"><i class="fas fa-envelope"></i></div>
+          <div class="contact-text">
+            <h4>Email Us</h4>
+            <p>info@auratravel.com<br>support@auratravel.com</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Contact Form -->
+      <div class="contact-form reveal" style="transition-delay: 0.1s;">
+        <div class="form-success" id="formSuccess">
+          Thank you! Your message has been sent successfully. Our team will contact you shortly.
+        </div>
+        
+        <form id="contactForm" novalidate>
+          <div class="form-group">
+            <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+            <div class="form-error" id="nameError">Please enter your full name.</div>
+          </div>
+          
+          <div class="form-group">
+            <input type="email" id="email" class="form-control" placeholder="Your Email Address" required>
+            <div class="form-error" id="emailError">Please enter a valid email address.</div>
+          </div>
+          
+          <div class="form-group">
+            <input type="text" id="subject" class="form-control" placeholder="Subject" required>
+            <div class="form-error" id="subjectError">Please provide a subject.</div>
+          </div>
+          
+          <div class="form-group">
+            <textarea id="message" class="form-control" placeholder="Tell us about your dream trip..." required></textarea>
+            <div class="form-error" id="messageError">Please enter your message.</div>
+          </div>
+          
+          <button type="submit" class="btn btn-primary" style="width: 100%;">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col">
+          <a href="#home" class="logo" style="margin-bottom: 1.5rem; display: block;">Aura<span>Travel</span></a>
+          <p>We are a premium travel agency dedicated to creating unforgettable experiences across the globe. Your adventure starts here.</p>
+        </div>
+        <div class="footer-col">
+          <h3>Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Destinations</h3>
+          <ul class="footer-links">
+            <li><a href="#destinations">Europe</a></li>
+            <li><a href="#destinations">Asia</a></li>
+            <li><a href="#destinations">Americas</a></li>
+            <li><a href="#destinations">Africa</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3>Contact Info</h3>
+          <ul class="footer-links">
+            <li><i class="fas fa-map-marker-alt"></i> 123 Travel Lane, NY 10001</li>
+            <li><i class="fas fa-phone"></i> +1 (555) 123-4567</li>
+            <li><i class="fas fa-envelope"></i> info@auratravel.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Aura Travel. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
