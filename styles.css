@@ -100,6 +100,11 @@ section {
   padding: 6rem 0;
 }
 
+.page-section {
+  padding-top: 8rem;
+  padding-bottom: 4rem;
+}
+
 /* Navbar */
 .navbar {
   position: fixed;
@@ -622,5 +627,28 @@ textarea.form-control {
   
   .hero-btns {
     flex-direction: column;
+  }
+  
+  .contact-container {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+  
+  .contact-form {
+    padding: 2rem;
+  }
+  
+  .page-section {
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
   }
 }
